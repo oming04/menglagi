@@ -94,7 +94,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("🔒 Tutup Jangan Kepo", callback_data = "close")
                 ],
                 [
-                    InlineKeyboardButton("JOIN VIP", url?url=https://t.me/yuk_join_kak)
+                    InlineKeyboardButton("JOIN VIP", url=f"https://t.me/yuk_join_kak")
                 ]
             ]
         )
