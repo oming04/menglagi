@@ -93,10 +93,6 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("😊 Kepo Ya?", callback_data = "about"),
                     InlineKeyboardButton("🔒 Tutup Jangan Kepo", callback_data = "close")
                 ]
-                [
-                    InlineKeyboardButton("😊 Kepo Ya?", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Tutup Jangan Kepo", callback_data = "close")
-                ]
             ]
         )
         await message.reply_text(
