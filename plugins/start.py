@@ -119,7 +119,13 @@ async def not_joined(client: Client, message: Message):
             InlineKeyboardButton("Gabung Channel", url = client.invitelink)
         ],
         [
-            InlineKeyboardButton("VIP MURAH GA USAH PENCET LINK", url=f"https://t.me/yuk_join_kak")
+            InlineKeyboardButton("JOIN VVIP MURAH,", url=f"https://t.me/yuk_join_kak")
+        ],
+        [
+            InlineKeyboardButton("GA USAH RIBET PENCET LINK", url=f"https://t.me/yuk_join_kak")
+        ],
+        [
+            InlineKeyboardButton("FOLLOW IG MIMIN", url=f"https://www.instagram.com/lopeyou.more")
         ]
     ]
     try:
