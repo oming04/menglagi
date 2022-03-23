@@ -91,10 +91,10 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("😊 Kepo Ya?", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Tutup Jangan Kepo", callback_data = "close")
+                    InlineKeyboardButton("🔒 Tutup", callback_data = "close")
                 ],
                 [
-                    InlineKeyboardButton("JOIN VIP", url=f"https://t.me/yuk_join_kak")
+                    InlineKeyboardButton("CHANNEL", url=f"https://t.me/hardbst")
                 ]
             ]
         )
@@ -117,15 +117,6 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton("Gabung Channel", url = client.invitelink)
-        ],
-        [
-            InlineKeyboardButton("JOIN VVIP MURAH,", url=f"https://t.me/yuk_join_kak")
-        ],
-        [
-            InlineKeyboardButton("GA USAH RIBET PENCET LINK", url=f"https://t.me/yuk_join_kak")
-        ],
-        [
-            InlineKeyboardButton("FOLLOW IG MIMIN", url=f"https://www.instagram.com/lopeyou.more")
         ]
     ]
     try:
